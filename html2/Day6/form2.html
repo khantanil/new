@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Without Table</title>
+    <style>
+        .form {
+            align-items: center;
+            margin: auto;
+            width: 290px;
+        }
+
+        .mb-3 {
+            align-items: center;
+        }
+        .heading{
+            align-items: center;
+            margin: auto;
+            width: 400px;
+        }
+        .input{
+            border-radius: 7px;
+        }
+    </style>
+</head>
+
+<body bgcolor="#a9fcce">
+   <br> <br> <b><u><h1 class="heading"> Form Without Table</h1></u></b> <br> <br>
+    <form class="form" >
+        <div class="div">
+            <label for="name" class="name">
+                <font size="5">Firt name:</font>
+            </label> <br>
+            <input type="text" id="name" required class="input">
+        </div> <br>
+        <div class="div">
+            <label for="name" class="name">
+                <font size="5">Last name:</font>
+            </label> <br>
+            <input type="text" id="name" required  class="input">
+        </div> <br>
+        <div class="div">
+            <label for="Password" class="Password">
+                <font size="5">Password:</font>
+            </label> <br>
+            <input type="password" id="Password" name="Password" required class="input"> <br>
+            <a href="">Forgot Password</a>
+        </div> <br>
+        <div class="div">
+            <label for="mail" class="mail">
+                <font size="5">Email:</font>
+            </label> <br>
+            <input type="mail" id="mail" required class="input">
+        </div> <br>
+        <div class="div">
+            <label for="radiobtn" class="radiobtn">
+                <font size="5">Gender:</font>
+            </label> <br>
+            <input type="radio" id="radiobtn" name="radiobtn" required class="input"> Male
+            <input type="radio" id="radiobtn" name="radiobtn" required class="input"> Female
+
+        </div> <br>
+        <div class="div">
+            <label for="date" class="date">
+                <font size="5">Date of Birth:</font>
+            </label> <br>
+            <input type="date" id="date" required class="input">
+        </div> <br>
+        <div class="div">
+            <label for="address" class="address">
+                <font size="5">Address:</font>
+            </label> <br>
+            <textarea name="address" id="address" cols="25" rows="4" required class="input"></textarea>
+        </div> <br>
+
+        <button type="submit" class="input">Submit</button>
+    </form>
+</body>
+
+</html>

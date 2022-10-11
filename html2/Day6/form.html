@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form With Table</title>
+    <style>
+        .table {
+            margin: 40px;
+            border-radius: 10px;
+        }
+
+        .t1 {
+            border-radius: 10px;
+        }
+
+        .table2 {
+            margin-top: 150px;
+            border-radius: 10px;
+            width: 25%;
+        }
+
+        .table3 {
+            width: 60%;
+        }
+    </style>
+</head>
+
+<body bgcolor="#f6bb86">
+    <form action="">
+
+        <table bgcolor="white" width="300px" height="200px" class="table2" align="center">
+            <tr>
+                <td>
+                    <table bgcolor="#86ecf6" align="center" class="table" border="1px">
+                        <tr>
+                            <td colspan="2" align="center" class="t1">
+
+                                <font style="font-family:  fsystem-ui;">
+                                    <h2>Form With Table
+                                        <!-- <hr width="100%" style="height:2px; " color="white"> -->
+                                    </h2>
+                                </font>
+
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="center"><b><label for="firstname">First name:</label></b></td>
+                            <td class="table3"><input type="text" id="firsname" name="firstname" required></td>
+                        </tr>
+
+                        <tr>
+                            <td align="center"><b><label for="lastname">Last name:</label></b></td>
+                            <td class="table3"><input type="text" id="lastname" name="lastname" required></td>
+                        </tr>
+
+                        <tr>
+                            <td align="center"><b><label for="gender">Gender:</label></b></td>
+                            <td class="table3"><input type="radio" id="gender" name="gender" required> Male
+                                <input type="radio" id="gender" name="gender" required> Female
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td align="center"><b><label for="dob">Date of Birth:</label></b></td>
+                            <td class="table3"><input type="date" id="dob" name="dob"  required></td>
+                        </tr>
+
+                        <tr>
+                            <td align="center"><b><label for="email">Email:</label></b></td>
+                            <td class="table3"><input type="email" id="email" name="email" required></td>
+                        </tr>
+
+                        <tr>
+                            <td align="center"><b><label for="password">Password:</label></b></td>
+                            <td class="table3"><input type="password" id="password" name="password" required> <br>
+                                <a href="">forgot password</a>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td align="center"><b><label for="address">Address:</label></b></td>
+                            <td class="table3"><textarea name="address" id="address" rows="3" cols="20"
+                                    required></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="2"><button type="submit" class="btn"
+                                    style="border-radius: 10px;"><b>submit</b></button>
+                                <!-- <hr width="100%" style="height:2px; " color="white"> -->
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
